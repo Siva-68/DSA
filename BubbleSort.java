@@ -1,8 +1,8 @@
 public class Main{
     public static void main(String[] args){
-        int []arr = {10,7,5,4,12,3};
-        bubbleSort(arr);
-        for(int num :arr) System.out.print(num+" ");
+        // int []arr = {10,7,5,4,12,3};   "This is an example for the bubblesort "
+        // bubbleSort(arr);
+        // for(int num :arr) System.out.print(num+" ");
     }
     static void bubbleSort(int[] arr){
         int len = arr.length;
@@ -20,4 +20,5 @@ public class Main{
             if(!swap) break;
         }
     }
+
 }
